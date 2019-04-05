@@ -1,8 +1,8 @@
-class StudentController < ApplicationController
+class StudentsController < ApplicationController
 
   def show
 
-    @student = Studet.find(params[:id])
+    @student = Student.find(params[:id])
 
   end
 
