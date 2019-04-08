@@ -4,3 +4,10 @@
 require File.expand_path('../config/application', __FILE__)
 
 Rails.application.load_tasks
+
+
+require 'pry'
+desc 'runs pry'
+task :console do
+  Pry.start
+end
